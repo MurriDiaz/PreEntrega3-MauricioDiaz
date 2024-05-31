@@ -1,0 +1,62 @@
+/*Conteiner de pagina 2 */
+
+.container2 {
+    border: solid 2px;
+    padding: 10px;
+    margin: auto;
+    background-color:$color-gris;
+    flex-flow: row wrap;
+    height: 800px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px 3px;
+    grid-template-areas: "Mate1 mate2 mate3 cuidadomate" "mate4 mate5 mate6 cuidadomate" "mate7 mate8 mate9 cuidadomate";
+
+    img {
+        width: 170px;
+        height: 170px;
+        padding: 10px;
+    }
+}
+
+.Mate1 {
+    grid-area: Mate1;
+}
+
+.mate2 {
+    grid-area: mate2;
+}
+
+.mate3 {
+    grid-area: mate3;
+}
+
+.mate4 {
+    grid-area: mate4;
+}
+
+.mate5 {
+    grid-area: mate5;
+}
+
+.mate6 {
+    grid-area: mate6;
+}
+
+.mate7 {
+    grid-area: mate7;
+}
+
+.mate8 {
+    grid-area: mate8;
+}
+
+.mate9 {
+    grid-area: mate9;
+}
+
+.cuidadomate {
+    grid-area: cuidadomate;
+}

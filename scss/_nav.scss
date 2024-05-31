@@ -1,0 +1,31 @@
+Nav {
+    padding: 10PX;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border: 10px solid black;
+    margin-bottom: 2px;
+    text-decoration: none;
+  }
+  
+  .lista1 {
+    li {
+      padding: 7px;
+      display: inline;
+      margin: 10px;
+      border-radius: 10px;
+      border: solid 2px white;
+  
+      &:hover {
+        box-shadow: 10px;
+        background-color: rgb(44, 149, 70);
+      }
+    }
+  
+    a {
+      color: rgb(222, 220, 220);
+      text-decoration: none;
+    }
+  }
+  

@@ -1,0 +1,67 @@
+.h3-preguntas {
+    display: flex;
+    width: 100%;
+}
+
+.h3-preguntas1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.form-label,
+.mb-3 {
+    width: 100%;
+}
+
+.form-control1 {
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+}
+
+.botones-multimedia {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    border-radius: 25%;
+    width: 100px;
+    height: 100px;
+    padding: auto;
+    margin: 10px;
+
+    a {
+        text-decoration: none;
+        font-size: medium;
+        color:$color-black;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.formulario4 {
+    width: 100%;
+}
+
+.h3-formulario {
+    text-align: center;
+}
+
+.btn-outline-primary,
+.btn-outline-secondary {
+    width: 100px;
+    height: 60px;
+}
+

@@ -1,0 +1,116 @@
+/*Responsive @media*/
+
+/*Responsive Computadora*/
+
+@media (max-width:1028px) {
+    nav {
+        width: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .lista1 li {
+        font-size: 0.8rem;
+        flex-direction: column;
+    }
+
+    .conteiner {
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+
+    .menu {
+        width: auto;
+    }
+
+    .conteiner3 {
+        display: flex;
+    }
+
+    .conteiner3 img {
+        width: auto;
+    }
+
+    .cajahistoria2 {
+        width: auto;
+    }
+}
+
+/*Responsive Telefono*/
+@media (max-width:480px) {
+    nav {
+        display: flex;
+        width: auto;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .lista1 li {
+        height: 30px;
+        width: auto;
+        text-align: center;
+        display: block;
+        
+    }
+    .container2{
+        width: auto;
+        height: auto;
+        display: inline-block;}
+    .container2 button{
+        width: auto;
+
+    }
+    .footer{
+        width: auto;
+        height: auto;
+    }
+   
+        
+
+    .cajahistoria1 {
+        width: auto;
+    }
+
+    .footer {
+        width: auto;
+    }
+
+  .conteiner3 .cajahistoria1 {
+        width: auto;
+    }
+}
+
+/*Responsive Tablet*/
+
+@media(max-width:767px) {
+    nav {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .container2{
+        width: auto;
+        height: auto;
+    }
+    .mate{
+     height: auto;
+     width: auto;
+    }
+
+    .conteiner3 {
+        width: auto;
+    }
+    .conteiner3 button{
+        width: auto;
+        height: auto;
+    }
+
+    .conteiner3 img {
+        width: 400px;
+        height: 200px;
+
+    }
+}
